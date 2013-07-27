@@ -18,6 +18,9 @@
 		C34BCD0617A4332700C119E0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C34BCD0517A4332700C119E0 /* Default-568h@2x.png */; };
 		C34BCD0917A4332700C119E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34BCD0817A4332700C119E0 /* ViewController.m */; };
 		C34BCD0C17A4332700C119E0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C34BCD0A17A4332700C119E0 /* ViewController.xib */; };
+		C34BCD1517A4392E00C119E0 /* meganFox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C34BCD1317A4392E00C119E0 /* meganFox.jpg */; };
+		C34BCD1617A4392E00C119E0 /* treinamentosMobi.png in Resources */ = {isa = PBXBuildFile; fileRef = C34BCD1417A4392E00C119E0 /* treinamentosMobi.png */; };
+		C34BCD1917A43BB000C119E0 /* PalestranteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34BCD1817A43BB000C119E0 /* PalestranteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		C34BCD0717A4332700C119E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C34BCD0817A4332700C119E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C34BCD0B17A4332700C119E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C34BCD1317A4392E00C119E0 /* meganFox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meganFox.jpg; path = ../../meganFox.jpg; sourceTree = "<group>"; };
+		C34BCD1417A4392E00C119E0 /* treinamentosMobi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = treinamentosMobi.png; path = ../../treinamentosMobi.png; sourceTree = "<group>"; };
+		C34BCD1717A43BB000C119E0 /* PalestranteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalestranteViewController.h; sourceTree = "<group>"; };
+		C34BCD1817A43BB000C119E0 /* PalestranteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PalestranteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +90,15 @@
 		C34BCCF517A4332700C119E0 /* Exercicio01 */ = {
 			isa = PBXGroup;
 			children = (
+				C34BCD1217A438C500C119E0 /* Imagens */,
 				C34BCCFE17A4332700C119E0 /* AppDelegate.h */,
 				C34BCCFF17A4332700C119E0 /* AppDelegate.m */,
 				C34BCD0717A4332700C119E0 /* ViewController.h */,
 				C34BCD0817A4332700C119E0 /* ViewController.m */,
 				C34BCD0A17A4332700C119E0 /* ViewController.xib */,
 				C34BCCF617A4332700C119E0 /* Supporting Files */,
+				C34BCD1717A43BB000C119E0 /* PalestranteViewController.h */,
+				C34BCD1817A43BB000C119E0 /* PalestranteViewController.m */,
 			);
 			path = Exercicio01;
 			sourceTree = "<group>";
@@ -105,6 +115,15 @@
 				C34BCD0517A4332700C119E0 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C34BCD1217A438C500C119E0 /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				C34BCD1317A4392E00C119E0 /* meganFox.jpg */,
+				C34BCD1417A4392E00C119E0 /* treinamentosMobi.png */,
+			);
+			name = Imagens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +182,8 @@
 				C34BCD0417A4332700C119E0 /* Default@2x.png in Resources */,
 				C34BCD0617A4332700C119E0 /* Default-568h@2x.png in Resources */,
 				C34BCD0C17A4332700C119E0 /* ViewController.xib in Resources */,
+				C34BCD1517A4392E00C119E0 /* meganFox.jpg in Resources */,
+				C34BCD1617A4392E00C119E0 /* treinamentosMobi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +197,7 @@
 				C34BCCFC17A4332700C119E0 /* main.m in Sources */,
 				C34BCD0017A4332700C119E0 /* AppDelegate.m in Sources */,
 				C34BCD0917A4332700C119E0 /* ViewController.m in Sources */,
+				C34BCD1917A43BB000C119E0 /* PalestranteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

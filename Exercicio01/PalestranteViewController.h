@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PalestranteViewController.h
 //  Exercicio01
 //
 //  Created by Breno A. S. Moura on 7/27/13.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-- (IBAction)botaoClicado:(UIButton *)sender;
+@interface PalestranteViewController : UIViewController
 
 @end

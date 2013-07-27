@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PalestranteViewController.h"
 
 @interface ViewController ()
 
@@ -18,12 +19,21 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.title = @"Treinamentos.mobi";
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)botaoClicado:(UIButton *)sender {
+    NSLog(@"Entrou no método");
+    
+    PalestranteViewController *palestranteVC = [PalestranteViewController new];
+    [self.navigationController pushViewController:palestranteVC animated:YES];
 }
 
 @end
