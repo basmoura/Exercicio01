@@ -29,9 +29,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)botaoClicado:(UIButton *)sender {
-    NSLog(@"Entrou no método");
-    
+- (IBAction)botaoClicado:(UIButton *)sender
+{
     PalestranteViewController *palestranteVC = [PalestranteViewController new];
     [self.navigationController pushViewController:palestranteVC animated:YES];
 }

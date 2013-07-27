@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C323F85717A4804300086FCC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C323F85617A4804300086FCC /* Icon.png */; };
 		C34BCCF017A4332700C119E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34BCCEF17A4332700C119E0 /* UIKit.framework */; };
 		C34BCCF217A4332700C119E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34BCCF117A4332700C119E0 /* Foundation.framework */; };
 		C34BCCF417A4332700C119E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34BCCF317A4332700C119E0 /* CoreGraphics.framework */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C323F85617A4804300086FCC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../../../Desktop/teste/Icon.png; sourceTree = "<group>"; };
 		C34BCCEC17A4332700C119E0 /* Exercicio01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercicio01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34BCCEF17A4332700C119E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C34BCCF117A4332700C119E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +122,7 @@
 		C34BCD1217A438C500C119E0 /* Imagens */ = {
 			isa = PBXGroup;
 			children = (
+				C323F85617A4804300086FCC /* Icon.png */,
 				C34BCD1317A4392E00C119E0 /* meganFox.jpg */,
 				C34BCD1417A4392E00C119E0 /* treinamentosMobi.png */,
 			);
@@ -184,6 +187,7 @@
 				C34BCD0C17A4332700C119E0 /* ViewController.xib in Resources */,
 				C34BCD1517A4392E00C119E0 /* meganFox.jpg in Resources */,
 				C34BCD1617A4392E00C119E0 /* treinamentosMobi.png in Resources */,
+				C323F85717A4804300086FCC /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +324,7 @@
 				C34BCD1117A4332700C119E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

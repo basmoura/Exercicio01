@@ -79,7 +79,7 @@
 						<string key="NSFrame">{{29, 6}, {237, 165}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="624076604"/>
+						<reference key="NSNextKeyView" ref="187250086"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -94,6 +94,7 @@
 						<string key="NSFrame">{{40, 180}, {241, 135}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="624076604"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">1</int>
@@ -102,9 +103,7 @@
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<object class="NSMutableString" key="IBUIText">
-							<characters key="NS.bytes">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</characters>
-						</object>
+						<string key="IBUIText">Depois de termos passado pela experiência de treinar centenas de pessoas, percebemos que havia uma lacuna muito grande na área de mobilidade. Unimos isso ao fato de sermos profissionais focados em desenvolvimento para dispositivos móveis e ao desejo de criar algo novo, com uma qualidade acima do que existe no mercado. Baseado nisso, decidmos criar uma nova central de treinamentos, focada na área de dispositivos móveis</string>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 							<int key="IBUIAutocapitalizationType">2</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -366,6 +365,31 @@
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
+						<int key="objectID">58</int>
+						<reference key="object" ref="968855875"/>
+						<reference key="parent" ref="109487897"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">59</int>
+						<reference key="object" ref="686188206"/>
+						<reference key="parent" ref="109487897"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">102</int>
+						<reference key="object" ref="1063009169"/>
+						<reference key="parent" ref="774585933"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">104</int>
+						<reference key="object" ref="582765686"/>
+						<reference key="parent" ref="774585933"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">112</int>
+						<reference key="object" ref="505093721"/>
+						<reference key="parent" ref="774585933"/>
+					</object>
+					<object class="IBObjectRecord">
 						<int key="objectID">49</int>
 						<reference key="object" ref="187250086"/>
 						<array class="NSMutableArray" key="children">
@@ -405,14 +429,14 @@
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">58</int>
-						<reference key="object" ref="968855875"/>
-						<reference key="parent" ref="109487897"/>
+						<int key="objectID">116</int>
+						<reference key="object" ref="322707654"/>
+						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">59</int>
-						<reference key="object" ref="686188206"/>
-						<reference key="parent" ref="109487897"/>
+						<int key="objectID">94</int>
+						<reference key="object" ref="844317566"/>
+						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">80</int>
@@ -423,31 +447,6 @@
 						<int key="objectID">81</int>
 						<reference key="object" ref="284190029"/>
 						<reference key="parent" ref="187250086"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">94</int>
-						<reference key="object" ref="844317566"/>
-						<reference key="parent" ref="774585933"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">102</int>
-						<reference key="object" ref="1063009169"/>
-						<reference key="parent" ref="774585933"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">104</int>
-						<reference key="object" ref="582765686"/>
-						<reference key="parent" ref="774585933"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">112</int>
-						<reference key="object" ref="505093721"/>
-						<reference key="parent" ref="774585933"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">116</int>
-						<reference key="object" ref="322707654"/>
-						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">120</int>
@@ -503,7 +502,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">120</int>
+			<int key="maxID">129</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
